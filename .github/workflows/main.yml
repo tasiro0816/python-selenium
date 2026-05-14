@@ -1,16 +1,15 @@
-name: Build Image
+name: Build Env
 
 on:
-  workflow_dispatch: # 手動でビルドテストを行う
+  push:
+    branches: [ "main" ] # コードを上げたら自動でビルド確認
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Build
+      - uses: actions/checkout@v4
+      - name: Build Docker
         run: |
-          docker build -t custom-python-env .
-          echo "Build successful."
+          docker build -t v_app .
+          echo "環境構築完了"
