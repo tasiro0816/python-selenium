@@ -28,3 +28,5 @@ RUN pip install --no-cache-dir \
     numpy \
     aiohttp \
     pytz
+
+CMD ["/bin/bash"]
