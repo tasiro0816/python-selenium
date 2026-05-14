@@ -1,0 +1,296 @@
+{
+  "servers": {
+    "ee796b57_1208324610530222080": {
+      "serverName": "ee796b57",
+      "discordUserId": "1208324610530222080",
+      "expiry": "2026-06-06T06:26:04.456Z",
+      "months": 1,
+      "createdAt": "2026-05-06T06:26:04.457Z",
+      "notified5": false,
+      "notified1": false,
+      "suspended": false,
+      "deleted": false
+    },
+    "a2cfdf15_1486506466050441408": {
+      "serverName": "a2cfdf15",
+      "discordUserId": "1486506466050441408",
+      "expiry": "2026-08-06T06:27:10.386Z",
+      "months": 3,
+      "createdAt": "2026-05-06T06:27:10.386Z",
+      "notified5": false,
+      "notified1": false,
+      "suspended": false,
+      "deleted": false
+    },
+    "a75fdc61_1365166057924333669": {
+      "serverName": "a75fdc61",
+      "discordUserId": "1365166057924333669",
+      "expiry": "2026-06-06T06:27:45.722Z",
+      "months": 1,
+      "createdAt": "2026-05-06T06:27:45.722Z",
+      "notified5": false,
+      "notified1": false,
+      "suspended": false,
+      "deleted": false
+    },
+    "まっちゃ_460871806757240842": {
+      "serverName": "まっちゃ",
+      "discordUserId": "460871806757240842",
+      "expiry": "2026-11-08T12:53:30.006Z",
+      "months": 6,
+      "createdAt": "2026-05-08T12:53:30.006Z",
+      "notified5": false,
+      "notified1": false,
+      "suspended": false,
+      "deleted": false
+    },
+    "siyou_1392815919503507518": {
+      "serverName": "siyou",
+      "discordUserId": "1392815919503507518",
+      "expiry": "2026-08-09T13:04:51.187Z",
+      "months": 0,
+      "createdAt": "2026-05-09T12:56:33.095Z",
+      "notified5": false,
+      "notified1": false,
+      "suspended": false,
+      "deleted": false,
+      "deleteAt": "2026-05-14T13:00:56.135Z"
+    },
+    "siyou._1392815919503507518": {
+      "serverName": "siyou.",
+      "discordUserId": "1392815919503507518",
+      "expiry": "2026-08-09T13:16:19.780Z",
+      "months": 3,
+      "createdAt": "2026-05-09T13:16:19.781Z",
+      "notified5": false,
+      "notified1": false,
+      "suspended": false,
+      "deleted": false
+    },
+    "charge bot_1264198471791939670": {
+      "serverName": "charge bot",
+      "discordUserId": "1264198471791939670",
+      "expiry": "2026-08-09T13:45:37.248Z",
+      "months": 3,
+      "createdAt": "2026-05-09T13:45:37.248Z",
+      "notified5": false,
+      "notified1": false,
+      "suspended": false,
+      "deleted": false
+    },
+    "アカノ_1219636616067285012": {
+      "serverName": "アカノ",
+      "discordUserId": "1219636616067285012",
+      "expiry": "2026-11-09T14:02:45.477Z",
+      "months": 6,
+      "createdAt": "2026-05-09T14:02:45.477Z",
+      "notified5": false,
+      "notified1": false,
+      "suspended": false,
+      "deleted": false
+    },
+    "server223_1198857466167963758": {
+      "serverName": "server223",
+      "discordUserId": "1198857466167963758",
+      "expiry": "2026-06-09T14:07:05.446Z",
+      "months": 1,
+      "createdAt": "2026-05-09T14:07:05.446Z",
+      "notified5": false,
+      "notified1": false,
+      "suspended": false,
+      "deleted": false
+    },
+    "first_1464903959746445314": {
+      "serverName": "first",
+      "discordUserId": "1464903959746445314",
+      "expiry": "2026-08-09T16:08:39.910Z",
+      "months": 3,
+      "createdAt": "2026-05-09T16:08:39.910Z",
+      "notified5": false,
+      "notified1": false,
+      "suspended": false,
+      "deleted": false
+    },
+    "TTT_1346788118451322963": {
+      "serverName": "TTT",
+      "discordUserId": "1346788118451322963",
+      "expiry": "2026-06-09T16:45:32.402Z",
+      "months": 1,
+      "createdAt": "2026-05-09T16:45:32.402Z",
+      "notified5": false,
+      "notified1": false,
+      "suspended": false,
+      "deleted": false
+    },
+    "twofivex2_951976444802789499": {
+      "serverName": "twofivex2",
+      "discordUserId": "951976444802789499",
+      "expiry": "2026-11-10T03:33:23.027Z",
+      "months": 6,
+      "createdAt": "2026-05-10T03:33:23.028Z",
+      "notified5": false,
+      "notified1": false,
+      "suspended": false,
+      "deleted": false
+    },
+    "🪽𝕼𝖚𝖊𝖊𝖓 𝐬𝐞𝐫𝐯𝐞𝐫 🪽 1nd_1499131362492547223": {
+      "serverName": "🪽𝕼𝖚𝖊𝖊𝖓 𝐬𝐞𝐫𝐯𝐞𝐫 🪽 1nd",
+      "discordUserId": "1499131362492547223",
+      "expiry": "2026-11-11T13:25:39.185Z",
+      "months": 6,
+      "createdAt": "2026-05-11T13:25:39.186Z",
+      "notified5": false,
+      "notified1": false,
+      "suspended": false,
+      "deleted": false
+    },
+    "LEMON PR_1403167996607725629": {
+      "serverName": "LEMON PR",
+      "discordUserId": "1403167996607725629",
+      "expiry": "2027-05-11T14:14:43.684Z",
+      "months": 12,
+      "createdAt": "2026-05-11T14:14:43.685Z",
+      "notified5": false,
+      "notified1": false,
+      "suspended": false,
+      "deleted": false
+    }
+  },
+  "accounts": {
+    "1217083068775661653": {
+      "email": "harusabu488@gmail.com",
+      "username": "hal_spica",
+      "panelUserId": 21,
+      "timezone": "Asia/Tokyo",
+      "language": "ja",
+      "createdAt": "2026-05-06T07:00:19.181Z"
+    },
+    "997764463337934848": {
+      "email": "mustard@free.accvm.jp",
+      "username": "MustardApple984",
+      "panelUserId": 22,
+      "timezone": "Asia/Tokyo",
+      "language": "ja",
+      "createdAt": "2026-05-06T21:10:32.386Z"
+    },
+    "460871806757240842": {
+      "email": "m6chch@gmail.com",
+      "username": "m6chch@gmail.com",
+      "panelUserId": 23,
+      "timezone": "Asia/Tokyo",
+      "language": "ja",
+      "createdAt": "2026-05-08T12:43:49.161Z"
+    },
+    "1119588177448013965": {
+      "email": "t2011takaaki@gmail.com",
+      "username": "taka_1127",
+      "panelUserId": 24,
+      "timezone": "asia",
+      "language": "ja",
+      "createdAt": "2026-05-09T09:09:24.952Z"
+    },
+    "1392815919503507518": {
+      "email": "siyoudao@gmail.com",
+      "username": "siyou",
+      "panelUserId": 26,
+      "timezone": "Asia/Tokyo",
+      "language": "ja",
+      "createdAt": "2026-05-09T12:49:02.103Z"
+    },
+    "1264198471791939670": {
+      "email": "bayoma@usagica.com",
+      "username": "charge bot",
+      "panelUserId": 27,
+      "timezone": "Asia/tokyo",
+      "language": "ja",
+      "createdAt": "2026-05-09T13:32:46.816Z"
+    },
+    "1219636616067285012": {
+      "email": "ryanyogyu@quicksend.ch",
+      "username": "akano111",
+      "panelUserId": 28,
+      "timezone": "asia",
+      "language": "ja",
+      "createdAt": "2026-05-09T13:55:35.607Z"
+    },
+    "1198857466167963758": {
+      "email": "mintogm34@gmail.com",
+      "username": "server223@outlook.jp",
+      "panelUserId": 29,
+      "timezone": "asi_tkv",
+      "language": "ja",
+      "createdAt": "2026-05-09T14:00:14.548Z"
+    },
+    "331592775160299523": {
+      "email": "menbaku2026@outlook.jp",
+      "username": "40dj",
+      "panelUserId": 30,
+      "timezone": "asia",
+      "language": "ja",
+      "createdAt": "2026-05-09T14:41:24.291Z"
+    },
+    "1464903959746445314": {
+      "email": "yamadayutaro1209@gmail.com",
+      "username": "daring_puppy_42466",
+      "panelUserId": 31,
+      "timezone": "asia",
+      "language": "ja",
+      "createdAt": "2026-05-09T16:02:28.984Z"
+    },
+    "1346788118451322963": {
+      "email": "paykyouyu123@gmail.com",
+      "username": "tatsutsun0554",
+      "panelUserId": 32,
+      "timezone": "asia",
+      "language": "ja",
+      "createdAt": "2026-05-09T16:39:26.809Z"
+    },
+    "1500458554572935353": {
+      "email": "luce8000@fukurou.ch",
+      "username": "luce",
+      "panelUserId": 33,
+      "timezone": "Asia",
+      "language": "jp",
+      "createdAt": "2026-05-10T00:33:26.858Z"
+    },
+    "951976444802789499": {
+      "email": "HAMU0227@outlook.jp",
+      "username": "TwoFive_x2",
+      "panelUserId": 34,
+      "timezone": "Asia",
+      "language": "jp",
+      "createdAt": "2026-05-10T00:45:23.558Z"
+    },
+    "1499131362492547223": {
+      "email": "yuukiokada91@free.accvm.jp",
+      "username": "__00_0",
+      "panelUserId": 36,
+      "timezone": "asia",
+      "language": "ja",
+      "createdAt": "2026-05-11T13:18:27.976Z"
+    },
+    "1496273114240385086": {
+      "email": "kaikenstmaho2020@gmail.com",
+      "username": "yoin_2020",
+      "panelUserId": 37,
+      "timezone": "asia",
+      "language": "ja",
+      "createdAt": "2026-05-11T13:19:49.131Z"
+    },
+    "1403167996607725629": {
+      "email": "nan468872@gmail.com",
+      "username": "レモンバスタージュース",
+      "panelUserId": 38,
+      "timezone": "asia/tokyo",
+      "language": "ja",
+      "createdAt": "2026-05-11T13:57:40.252Z"
+    }
+  },
+  "settings": {
+    "loadingEmoji": {
+      "name": "loading",
+      "id": "1501510259137581107",
+      "animated": true
+    }
+  }
+}
