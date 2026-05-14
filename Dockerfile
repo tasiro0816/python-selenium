@@ -1,6 +1,6 @@
 FROM python:3.11-slim-bookworm
 
-# システムパッケージのインストール（Chrome本体、ドライバー、ffmpeg等）
+# システムパッケージのインストール（ドライバー、ffmpeg等）
 RUN apt update && apt install -y \
     wget \
     gnupg \
