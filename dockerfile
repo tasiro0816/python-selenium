@@ -1,6 +1,6 @@
 FROM python:3.11-slim-bookworm
 
-# 必要なシステムパッケージのインストール（Chrome本体、ドライバー、ツール類）
+# システムパッケージのインストール（Chrome本体、ドライバー、ffmpeg等）
 RUN apt update && apt install -y \
     wget \
     gnupg \
@@ -12,6 +12,7 @@ RUN apt update && apt install -y \
     chromium-driver \
     && rm -rf /var/lib/apt/lists/*
 
+# ユーザー作成
 RUN useradd -m -d /home/container container
 USER container
 ENV USER=container HOME=/home/container
@@ -28,6 +29,4 @@ RUN pip install --no-cache-dir \
     aiohttp \
     pytz
 
-# 起動コマンド
-# コンソールを維持するためにbashを起動するようにしています
-CMD ["/bin/bash"]
+# 起動コマンドはなし（外部から指定するかbashで入る前提）
