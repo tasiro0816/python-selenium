@@ -28,5 +28,3 @@ RUN pip install --no-cache-dir \
     numpy \
     aiohttp \
     pytz
-
-# 起動コマンドはなし（外部から指定するかbashで入る前提）
