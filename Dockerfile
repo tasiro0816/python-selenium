@@ -19,6 +19,12 @@ USER container
 ENV USER=container HOME=/home/container
 WORKDIR /home/container
 
+RUN mkdir -p /home/container && \
+    touch /home/container/.Xauthority && \
+    chmod 600 /home/container/.Xauthority
+
+ENV XAUTHORITY=/home/container/.Xauthority
+
 # 基本的なPythonライブラリをプリインストール
 RUN pip install --no-cache-dir \
     selenium \
