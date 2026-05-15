@@ -31,7 +31,7 @@ RUN pip install --no-cache-dir \
     numpy \
     aiohttp \
     pytz \
-    blinker==1.7.0 \
+    blinker==1.7.0
     
 
 CMD ["/bin/bash"]
