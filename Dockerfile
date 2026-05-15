@@ -10,6 +10,7 @@ RUN apt update && apt install -y \
     ffmpeg \
     chromium \
     chromium-driver \
+    xvfb \
     && rm -rf /var/lib/apt/lists/*
 
 # ユーザー作成
@@ -21,12 +22,16 @@ WORKDIR /home/container
 # 基本的なPythonライブラリをプリインストール
 RUN pip install --no-cache-dir \
     selenium \
+    selenium-wire \
+    python-telegram-bot \
     requests \
     beautifulsoup4 \
     webdriver-manager \
     pandas \
     numpy \
     aiohttp \
-    pytz
+    pytz \
+    blinker==1.7.0 \
+    
 
 CMD ["/bin/bash"]
