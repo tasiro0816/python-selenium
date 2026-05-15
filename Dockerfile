@@ -11,6 +11,8 @@ RUN apt update && apt install -y \
     chromium \
     chromium-driver \
     xvfb \
+    python3-tk \
+    python3-dev \
     && rm -rf /var/lib/apt/lists/*
 
 # ユーザー作成
