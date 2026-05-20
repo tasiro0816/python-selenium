@@ -13,6 +13,7 @@ RUN apt update && apt install -y \
     xvfb \
     python3-tk \
     python3-dev \
+    fonts-noto-cjk 
     && rm -rf /var/lib/apt/lists/*
 
 # ユーザー作成
