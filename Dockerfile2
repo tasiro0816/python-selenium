@@ -2,9 +2,8 @@ FROM ubuntu:24.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-RUN apt-get update && apt-get install -y curl ca-certificates
-RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash -
-RUN apt-get install -y nodejs
+RUN apt-get update && apt-get install -y curl ca-certificates xz-utils
+RUN curl -fsSL https://nodejs.org/dist/v22.11.0/node-v22.11.0-linux-x64.tar.xz | tar -xJC /usr/local --strip-components=1
 RUN corepack enable && npm i -g yarn
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
