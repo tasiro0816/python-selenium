@@ -1,14 +1,14 @@
-name: Deploy Image
+Name: Deploy Image
 
 on:
-  workflow_dispatch: # 手動でビルド開始
+  workflow_dispatch:
 
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      packages: write # Packageへの書き込み権限
+      packages: write
 
     steps:
       - name: Checkout code
@@ -25,8 +25,8 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
+          file: ./Dockerfile2
           push: true
-  
           tags: |
             ghcr.io/${{ github.repository_owner }}/v-suite:latest
 
