@@ -33,4 +33,3 @@ jobs:
       - name: Summary
         run: |
           echo "Image successfully pushed to ghcr.io/${{ github.repository_owner }}/v-suite:latest"
-これ参考にして
