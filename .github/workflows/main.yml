@@ -1,35 +1,13 @@
-name: Deploy Image
+FROM ubuntu:24.04
 
-on:
-  workflow_dispatch:
+ENV DEBIAN_FRONTEND=noninteractive
 
-jobs:
-  build-and-push:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
+RUN apt-get update && apt-get install -y curl ca-certificates gnupg \
+    && mkdir -p /etc/apt/keyrings \
+    && curl -fsSL https://deb.nodesource.com/gpgkey/ns.gpg | gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg \
+    && echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_22.x nodistro main" | tee /etc/apt/sources.list.d/nodesource.list \
+    && apt-get update && apt-get install -y nodejs \
+    && corepack enable && npm i -g yarn \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Log in to GitHub Container Registry
-        uses: docker/login-action@v3
-        with:
-          registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Build and push Docker image
-        uses: docker/build-push-action@v5
-        with:
-          context: .
-          file: ./Dockerfile2
-          push: true
-          tags: |
-            ghcr.io/${{ github.repository_owner }}/v-suite:latest
-
-      - name: Summary
-        run: |
-          echo "Image successfully pushed to ghcr.io/${{ github.repository_owner }}/v-suite:latest"
+CMD ["node"]
