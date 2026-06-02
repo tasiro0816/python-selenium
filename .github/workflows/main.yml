@@ -1,14 +1,14 @@
-name: Deploy Image
+Name: Deploy Image
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: # 手動でビルド開始
 
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      packages: write
+      packages: write # Packageへの書き込み権限
 
     steps:
       - name: Checkout code
@@ -25,11 +25,12 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          file: ./Dockerfile2
           push: true
+  
           tags: |
             ghcr.io/${{ github.repository_owner }}/v-suite:latest
 
       - name: Summary
         run: |
           echo "Image successfully pushed to ghcr.io/${{ github.repository_owner }}/v-suite:latest"
+これ参考にして
